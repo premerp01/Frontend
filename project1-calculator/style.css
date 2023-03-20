@@ -1,0 +1,83 @@
+*
+{
+	margin:0;
+	padding:o;
+	box-sizing:border-box;
+	background-color:gray;
+	font-family:sans-serif;
+	outline:none;
+}
+.cal
+{
+	height:100vh;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+.calculator
+{
+	background-color:#ecf0f3;
+	padding:15px;
+	border-radius:30px;
+	box-shadow:inset 5px 5px 12px #ffffff;
+	box-shadow:inset 5px 5px 12px rgba(0,0,0,.16);
+	display: grid;
+	grid-template-columns: repeat(4,68px);
+	border: solid black 3px;
+	
+	
+}
+input
+{
+	grid-column: span 4;
+	height:70px;
+	width:260px;
+	box-shadow:inset -5px -5px 12px #ffffff;
+	box-shadow:inset 5px 5px 12px rgba(0,0,0,.16);
+	border:none;
+	border-radius:30px;
+	color:black;
+	font-size:50px;
+	text-align:end;
+	margin:auto;
+	margin-top:40px;
+	margin-bottom:30px;
+	padding:20px;
+	
+}
+
+button
+{
+	width:48px;
+	height:48px;
+	background-color:#ecf0f3;
+	border-radius:50%;
+	box-shadow:inset -5px -5px 12px #ffffff;
+	box-shadow:inset 5px 5px 12px rgba(0,0,0,.16);
+	margin:8px;
+	font-size:16px;
+	border:none;
+
+}
+.equal
+{
+	width:115px;
+	border-radius:40px;
+	background-color:#ecf0f3;
+	box-shadow:inset -5px -5px 12px #ffffff;
+	box-shadow:inset 5px 5px 12px rgba(0,0,0,.16);
+}
+button:hover
+{
+	background-color:lightblue;
+	
+}
+h1
+{
+	color:black;
+	font-weight:bold;
+	text-align:center;
+	letter-spacing:5px;
+	word-spacing:5px;
+	background-color:white;
+}
