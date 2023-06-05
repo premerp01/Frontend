@@ -1,0 +1,25 @@
+.navbar {
+    background-color: black;
+}
+.card-body img{
+    height: 300px;
+    margin-top: 0;
+}
+.card-body h3{
+    padding: 10px;
+    color:aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    color:darkgray;
+}
+h5{
+    text-align: center;
+    text-decoration: underline;
+}
+#footer{
+    background-color: black;
+    color:darkgray;
+}
